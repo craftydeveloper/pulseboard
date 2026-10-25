@@ -1,0 +1,11 @@
+{
+  "name": "pulseboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A manual status and incident log for services; it does not monitor production automatically.",
+  "scripts": {
+    "test": "node --test",
+    "validate": "node scripts/validate-static-app.mjs"
+  }
+}
